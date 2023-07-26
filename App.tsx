@@ -1,13 +1,14 @@
 /* eslint-disable react/react-in-jsx-scope */
+import React from "react";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>hello</Text>
-      <StatusBar style="auto" />
-    </View>
+      <View style={styles.container}>
+        <Text>Hello</Text>
+        <StatusBar style="auto" />
+      </View>
   );
 }
 
