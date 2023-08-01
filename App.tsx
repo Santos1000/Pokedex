@@ -7,11 +7,11 @@ import { Title } from "./src/components";
 export default function App() {
   return (
     <>
-    <View style={styles.container}>
-      <Text>Helloooo</Text>
-      <Title>oi</Title>
-      <StatusBar style="auto" />
-    </View>
+      <View style={styles.container}>
+        <Text>Helloooo</Text>
+        <Title>Whereas a common understanding</Title>
+        <StatusBar style="auto" />
+      </View>
     </>
   );
 }
