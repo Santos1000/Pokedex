@@ -1,13 +1,14 @@
 /* eslint-disable react/react-in-jsx-scope */
 import React from "react";
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
+import PxLogo from "./src/designSystem/button/logo/logo";
 
 export default function App() {
   return (
       <View style={styles.container}>
-        <Text>Hello</Text>
-        <StatusBar style="auto" />
+        <PxLogo/>
+      <StatusBar style="auto" />
       </View>
   );
 }
